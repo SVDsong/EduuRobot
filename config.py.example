@@ -9,24 +9,24 @@ from typing import List
 # API keys
 
 # Bot token from Bot Father
-TOKEN: str = "123123:YOUR_BOT_TOKEN_HERE"
+TOKEN: str = "6041305578:AAHifZOeb5UURh-X8APKhBVWCidv8aZvI_A"
 
 # Telegram API ID and API hash
 # Get it from https://my.telegram.org/apps
-API_ID: int = 321321
-API_HASH: str = "YOUR_API_HASH_HERE"
+API_ID: int = 27957041
+API_HASH: str = "2ae1c9912cd2efdecae7f0208994f0b0"
 
 # Tenor API key
 # Get it from https://tenor.com/developer/keyregistration
 # Can be empty (but the /gif command won't work without it)
-TENOR_API_KEY: str = ""
+TENOR_API_KEY: str = "AIzaSyDfpMxaBS8HDySZpvMwKWGYphf5TNQ0mpE"
 
 
 # Admins/sudoers settings
 
 # Sudoers and super sudoers
-SUPER_SUDOERS: List[int] = [123456789]
-SUDOERS: List[int] = [987654321]
+SUPER_SUDOERS: List[int] = [5276467211]
+SUDOERS: List[int] = [961156494]
 
 # All super sudoers should be sudoers as well
 SUDOERS.extend(SUPER_SUDOERS)
@@ -41,7 +41,7 @@ DATABASE_PATH = "eduu.db"
 WORKERS = 24
 
 # Chat used for logging
-LOG_CHAT: int = 123456789
+LOG_CHAT: int = -1001600523208
 
 # Prefixes for commands
 # e.g: /command and !command
